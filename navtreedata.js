@@ -26,14 +26,27 @@ var NAVTREE =
 [
   [ "816-tcc", "index.html", [
     [ "TinyCC Compiler for the WDC 65816", "index.html", [
-      [ "About", "index.html#autotoc_md1", null ],
-      [ "Getting Started", "index.html#autotoc_md2", [
-        [ "Build it", "index.html#autotoc_md3", null ],
-        [ "Generate the documentation", "index.html#autotoc_md4", null ],
-        [ "Use it", "index.html#autotoc_md5", null ]
+      [ "About", "index.html#autotoc_md10", [
+        [ "Some considerations", "index.html#autotoc_md11", null ]
       ] ],
-      [ "License", "index.html#autotoc_md6", null ],
-      [ "Acknowledgements", "index.html#autotoc_md7", null ]
+      [ "Getting Started", "index.html#autotoc_md12", [
+        [ "Build it", "index.html#autotoc_md13", null ],
+        [ "Generate the documentation", "index.html#autotoc_md14", null ],
+        [ "Use it", "index.html#autotoc_md15", null ]
+      ] ],
+      [ "License", "index.html#autotoc_md16", null ],
+      [ "Contributing", "index.html#autotoc_md17", null ],
+      [ "Acknowledgements", "index.html#autotoc_md18", null ]
+    ] ],
+    [ "Contributing to Transcriptase", "d2/dc1/md_CONTRIBUTING.html", [
+      [ "We Develop with Github", "d2/dc1/md_CONTRIBUTING.html#autotoc_md1", null ],
+      [ "We Use <a href=\"https://guides.github.com/introduction/flow/index.html\">Github Flow</a>, So All Code Changes Happen Through Pull Requests", "d2/dc1/md_CONTRIBUTING.html#autotoc_md2", null ],
+      [ "Any contributions you make will be under the GNU Lesser GPL License", "d2/dc1/md_CONTRIBUTING.html#autotoc_md3", null ],
+      [ "Report bugs using Github's <a href=\"https://github.com/alekmaul/tcc/issues\">issues</a>", "d2/dc1/md_CONTRIBUTING.html#autotoc_md4", null ],
+      [ "Write bug reports with detail, background, and sample code", "d2/dc1/md_CONTRIBUTING.html#autotoc_md5", null ],
+      [ "Use a Consistent Coding Style", "d2/dc1/md_CONTRIBUTING.html#autotoc_md6", null ],
+      [ "License", "d2/dc1/md_CONTRIBUTING.html#autotoc_md7", null ],
+      [ "References", "d2/dc1/md_CONTRIBUTING.html#autotoc_md8", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -66,11 +79,11 @@ var NAVTREEINDEX =
 "d1/d9e/elf_8h.html#aabb18b580f108bc31d4c5d841023673a",
 "d1/d9e/elf_8h.html#aee6cd3ae99763db39aa6bb3664d670cc",
 "d2/d8f/structar__hdr.html#ae554beb84e7823724946f8f0a1c2476d",
-"d3/dce/stddef_8h.html#a6d26a0475a6d6c897e655cdc5d8019d2",
-"d7/d5b/lib_2bcheck_8c.html#ab5de61bed71d99fc4f80c15c93ed2447",
-"d9/d87/816-gen_8c.html#ab60683898e02aa1fca032475795c23b2",
-"db/db0/structElf32__Nhdr.html",
-"functions_l.html"
+"d3/da4/structElf64__Vernaux.html#a56e3d7fee69c7b55556297757e1977e5",
+"d7/d5b/lib_2bcheck_8c.html#a85da77835c0ba4f69632aaa2304a6efc",
+"d9/d87/816-gen_8c.html#aa1bea70e007521580f948a128aa3efa2",
+"db/d75/structASMOperand.html#a3a9cc800cf251e26aaa54678241ecc4a",
+"functions_c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

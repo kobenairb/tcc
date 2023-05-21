@@ -90,7 +90,10 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_Readme"></a></p><ul>
 <li><a href="#tinycc-compiler-for-the-wdc-65816">TinyCC Compiler for the WDC 65816</a><ul>
-<li><a href="#about">About</a></li>
+<li><a href="#about">About</a><ul>
+<li><a href="#some-considerations">Some considerations</a></li>
+</ul>
+</li>
 <li><a href="#getting-started">Getting Started</a><ul>
 <li><a href="#build-it">Build it</a></li>
 <li><a href="#generate-the-documentation">Generate the documentation</a></li>
@@ -98,11 +101,12 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </ul>
 </li>
 <li><a href="#license">License</a></li>
+<li><a href="#contributing">Contributing</a></li>
 <li><a href="#acknowledgements">Acknowledgements</a></li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 About</h1>
 <p>TinyCC Compiler for the WDC 65816 for the <a href="https://en.wikipedia.org/wiki/WDC_65C816">WDC 65816</a> processor.</p>
 <p>This projet is a fork of the <a href="https://github.com/TinyCC/tinycc">TinyCC Compiler</a>.</p>
@@ -112,20 +116,35 @@ About</h1>
 <li>Primarily intended for use with the <a href="https://github.com/alekmaul/pvsneslib">Pvsneslib</a> SDK and for creating games on the <a href="https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System">SNES console</a>.</li>
 <li>Not optimized and is best used in conjunction with the dedicated <a href="https://github.com/alekmaul/pvsneslib/tree/develop/tools/816-opt">816-opt</a> and <a href="https://github.com/alekmaul/pvsneslib/tree/develop/tools/constify">constify</a> optimizers.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
+Some considerations</h2>
+<p>TCC is mostly implemented in C90. <b>Do not use any non-C90 features</b> that are not already in use.</p>
+<p>Non-C90 features currently in use, as revealed by:</p>
+<div class="fragment"><div class="line">./configure --extra-cflags=&quot;-std=c90 -Wpedantic&quot;</div>
+</div><!-- fragment --><ul>
+<li>long long (including "LL" constants)</li>
+<li>inline</li>
+<li>very long string constants</li>
+<li>assignment between function pointer and 'void *'</li>
+<li>"//" comments</li>
+<li>empty macro arguments (DEF_ASMTEST in i386-tok.h)</li>
+<li>unnamed struct and union fields (in struct <a class="el" href="d0/dc6/structSym.html">Sym</a>), a C11 feature</li>
+</ul>
+<p>For more informations, see [CodingStyle](CodingStyle)</p>
+<h1><a class="anchor" id="autotoc_md12"></a>
 Getting Started</h1>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Build it</h2>
 <p>Compile it using the <code>make</code> command.</p>
 <div class="fragment"><div class="line">make</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md4"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md14"></a>
 Generate the documentation</h2>
 <p>Generate the documentation in <code>docs/html</code> like this.</p>
 <div class="fragment"><div class="line">make docs</div>
 </div><!-- fragment --><blockquote class="doxtable">
 <p>The current documentation is still in progress and can be incomplete of inaccurate. </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Use it</h2>
 <p>See the help option.</p>
 <div class="fragment"><div class="line">./816-tcc -h</div>
@@ -141,11 +160,14 @@ Use it</h2>
 <div class="line">Preprocessor options:</div>
 <div class="line">  -E          preprocess only</div>
 <div class="line">  -Idir       add include path &#39;dir&#39;</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md6"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md16"></a>
 License</h1>
-<p>TCC is distributed under the GNU Lesser General Public License (see COPYING file).</p>
+<p>TCC is distributed under the GNU Lesser General Public License (see [COPYING](COPYING) and [RELICENSING](RELICENSING)).</p>
 <p><a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md17"></a>
+Contributing</h1>
+<p>See <a class="el" href="d2/dc1/md_CONTRIBUTING.html">CONTRIBUTING</a>.</p>
+<h1><a class="anchor" id="autotoc_md18"></a>
 Acknowledgements</h1>
 <p>The main contributors of this project:</p>
 <ul>
