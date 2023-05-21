@@ -38,11 +38,11 @@ var NAVTREE =
       [ "Contributing", "index.html#autotoc_md17", null ],
       [ "Acknowledgements", "index.html#autotoc_md18", null ]
     ] ],
-    [ "Contributing to Transcriptase", "d2/dc1/md_CONTRIBUTING.html", [
+    [ "Contributing to the project", "d2/dc1/md_CONTRIBUTING.html", [
       [ "We Develop with Github", "d2/dc1/md_CONTRIBUTING.html#autotoc_md1", null ],
-      [ "We Use <a href=\"https://guides.github.com/introduction/flow/index.html\">Github Flow</a>, So All Code Changes Happen Through Pull Requests", "d2/dc1/md_CONTRIBUTING.html#autotoc_md2", null ],
+      [ "We Use Github Flow", "d2/dc1/md_CONTRIBUTING.html#autotoc_md2", null ],
       [ "Any contributions you make will be under the GNU Lesser GPL License", "d2/dc1/md_CONTRIBUTING.html#autotoc_md3", null ],
-      [ "Report bugs using Github's <a href=\"https://github.com/alekmaul/tcc/issues\">issues</a>", "d2/dc1/md_CONTRIBUTING.html#autotoc_md4", null ],
+      [ "Report bugs using Github's", "d2/dc1/md_CONTRIBUTING.html#autotoc_md4", null ],
       [ "Write bug reports with detail, background, and sample code", "d2/dc1/md_CONTRIBUTING.html#autotoc_md5", null ],
       [ "Use a Consistent Coding Style", "d2/dc1/md_CONTRIBUTING.html#autotoc_md6", null ],
       [ "License", "d2/dc1/md_CONTRIBUTING.html#autotoc_md7", null ],

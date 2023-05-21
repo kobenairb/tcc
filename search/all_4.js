@@ -52,7 +52,7 @@ var searchData=
   ['config_5ftcc_5fmalloc_5fhooks_204',['CONFIG_TCC_MALLOC_HOOKS',['../d7/d5b/lib_2bcheck_8c.html#aa95efeaadd451781b8d04222f586be96',1,'CONFIG_TCC_MALLOC_HOOKS():&#160;bcheck.c'],['../dc/d8f/bcheck_8c.html#aa95efeaadd451781b8d04222f586be96',1,'CONFIG_TCC_MALLOC_HOOKS():&#160;bcheck.c']]],
   ['config_5ftccdir_205',['CONFIG_TCCDIR',['../db/d16/config_8h.html#a72fb44bfbd34cd261dee16934a3983cb',1,'config.h']]],
   ['constraint_206',['constraint',['../db/d75/structASMOperand.html#aa870015651092a3ff4e2e7b977a50027',1,'ASMOperand']]],
-  ['contributing_20to_20transcriptase_207',['Contributing to Transcriptase',['../d2/dc1/md_CONTRIBUTING.html',1,'']]],
+  ['contributing_20to_20the_20project_207',['Contributing to the project',['../d2/dc1/md_CONTRIBUTING.html',1,'']]],
   ['contributing_2emd_208',['CONTRIBUTING.md',['../d2/d52/CONTRIBUTING_8md.html',1,'']]],
   ['convert_5ftype_5fhelper_209',['convert_type_helper',['../d9/d87/816-gen_8c.html#a45eba475ee8e90cc31f54a1a2d58b23b',1,'816-gen.c']]],
   ['countof_210',['countof',['../d3/d29/tcc_8h.html#ae0895333e7c0b480c4ccab727560af3a',1,'tcc.h']]],
