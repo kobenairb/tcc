@@ -49,7 +49,7 @@ var searchData=
   ['config_5ftcc_5fbacktrace_201',['CONFIG_TCC_BACKTRACE',['../d3/d29/tcc_8h.html#ac7b969fadca8573ef9855f0eb664a761',1,'tcc.h']]],
   ['config_5ftcc_5fbcheck_202',['CONFIG_TCC_BCHECK',['../d3/d29/tcc_8h.html#a1a70b16438635d2a2171c7cc9347bf9e',1,'tcc.h']]],
   ['config_5ftcc_5fcrt_5fprefix_203',['CONFIG_TCC_CRT_PREFIX',['../d3/d29/tcc_8h.html#abe3444f10ca485d987ee9451ace6230c',1,'tcc.h']]],
-  ['config_5ftcc_5fmalloc_5fhooks_204',['CONFIG_TCC_MALLOC_HOOKS',['../d7/d5b/lib_2bcheck_8c.html#aa95efeaadd451781b8d04222f586be96',1,'CONFIG_TCC_MALLOC_HOOKS():&#160;bcheck.c'],['../dc/d8f/bcheck_8c.html#aa95efeaadd451781b8d04222f586be96',1,'CONFIG_TCC_MALLOC_HOOKS():&#160;bcheck.c']]],
+  ['config_5ftcc_5fmalloc_5fhooks_204',['CONFIG_TCC_MALLOC_HOOKS',['../dc/d8f/bcheck_8c.html#aa95efeaadd451781b8d04222f586be96',1,'bcheck.c']]],
   ['config_5ftccdir_205',['CONFIG_TCCDIR',['../db/d16/config_8h.html#a72fb44bfbd34cd261dee16934a3983cb',1,'config.h']]],
   ['constraint_206',['constraint',['../db/d75/structASMOperand.html#aa870015651092a3ff4e2e7b977a50027',1,'ASMOperand']]],
   ['contributing_20to_20the_20project_207',['Contributing to the project',['../d2/dc1/md_CONTRIBUTING.html',1,'']]],

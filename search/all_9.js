@@ -4,7 +4,7 @@ var searchData=
   ['has_5ftext_5faddr_790',['has_text_addr',['../d4/dea/structTCCState.html#a579a0624336bc4c6af2332fe47d604a2',1,'TCCState']]],
   ['hash_791',['hash',['../d7/dce/structSection.html#a3a439438ea0ecf635bb27bc15fe7df07',1,'Section']]],
   ['hash_5fnext_792',['hash_next',['../d5/d55/structTokenSym.html#abc71715d29b3e501bb45afee73970263',1,'TokenSym::hash_next()'],['../d9/d4d/structCachedInclude.html#abe68f4945d2387e89ad2cf1e6423ad29',1,'CachedInclude::hash_next()']]],
-  ['have_5fmemalign_793',['HAVE_MEMALIGN',['../d7/d5b/lib_2bcheck_8c.html#af617287c0026d5345a1863014c8cd168',1,'HAVE_MEMALIGN():&#160;bcheck.c'],['../dc/d8f/bcheck_8c.html#af617287c0026d5345a1863014c8cd168',1,'HAVE_MEMALIGN():&#160;bcheck.c']]],
+  ['have_5fmemalign_793',['HAVE_MEMALIGN',['../dc/d8f/bcheck_8c.html#af617287c0026d5345a1863014c8cd168',1,'bcheck.c']]],
   ['help_794',['help',['../d7/de5/tcc_8c.html#a0bed8474bd33a912769360766f6b10d4',1,'tcc.c']]],
   ['hidden_795',['HIDDEN',['../d0/de6/libtcc1_8c.html#ab42ef41116f8f2fe447484e2844cf0df',1,'libtcc1.c']]],
   ['hiddend_796',['HIDDEND',['../d0/de6/libtcc1_8c.html#a3fadfc8fa1b0161ca4ec70ba33218d3b',1,'libtcc1.c']]],

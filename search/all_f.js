@@ -40,7 +40,7 @@ var searchData=
   ['nb_5fsysinclude_5fpaths_1007',['nb_sysinclude_paths',['../d4/dea/structTCCState.html#a14a7984d8a4e473b7a4774be085eda7f',1,'TCCState']]],
   ['nentries_1008',['nentries',['../d0/dfe/structAUXBF.html#a4a4a7fa671cfc5a70a61a666d227eb36',1,'AUXBF']]],
   ['new_5fsection_1009',['new_section',['../da/d5b/libtcc_8c.html#a95f369e56dd2f02187050a46cd45b008',1,'new_section():&#160;libtcc.c'],['../d6/de7/structSectionMergeInfo.html#a8e867d7af814cc890875f594e5065d7f',1,'SectionMergeInfo::new_section()']]],
-  ['next_1010',['next',['../d7/dce/structSection.html#ac1576f7be5d38f43a1bb6b799718c6f1',1,'Section::next()'],['../d0/dc6/structSym.html#a50d89aaeaacb4790b2c58dda10b5fcaa',1,'Sym::next()'],['../d2/db3/structBoundEntry.html#a93d16844a1a6f99d43e49d7c26c896df',1,'BoundEntry::next()']]],
+  ['next_1010',['next',['../d2/db3/structBoundEntry.html#ac8818bbaf95e5498456b747d4719702c',1,'BoundEntry::next()'],['../d7/dce/structSection.html#ac1576f7be5d38f43a1bb6b799718c6f1',1,'Section::next()'],['../d0/dc6/structSym.html#a50d89aaeaacb4790b2c58dda10b5fcaa',1,'Sym::next()']]],
   ['nextentry_1011',['nextentry',['../d0/dfe/structAUXBF.html#a9068d90de7b7ec1963a01b164cc1dbe7',1,'AUXBF']]],
   ['nextsym_1012',['nextsym',['../d4/df6/structAUXFUNC.html#a339c308d379bd1700474c8cfb8d051e2',1,'AUXFUNC']]],
   ['nfuncs_1013',['nFuncs',['../d0/dc0/tcccoff_8c.html#a042e0e33845c945b18efe8dc0398e8dc',1,'tcccoff.c']]],
