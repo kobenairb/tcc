@@ -58,6 +58,7 @@ var libtcc_8c =
     [ "tcc_add_sysinclude_path", "da/d5b/libtcc_8c.html#aca7420faf2487aa5c1d75059540d5dcf", null ],
     [ "tcc_basename", "da/d5b/libtcc_8c.html#adcd3f77dae3ec8a1944ed950253aa8ed", null ],
     [ "tcc_close", "da/d5b/libtcc_8c.html#acf42b0dd32b8a76acaaba2d715afc3f4", null ],
+    [ "tcc_compile_string", "da/d5b/libtcc_8c.html#af78fdcdef1b9cc1d7f8d3d4f48ff981b", null ],
     [ "tcc_define_symbol", "da/d5b/libtcc_8c.html#ab995d222cab3cfe606723210fc4efa49", null ],
     [ "tcc_delete", "da/d5b/libtcc_8c.html#a328235e6bfe9057af5d8007a52d6dfd7", null ],
     [ "tcc_fileextension", "da/d5b/libtcc_8c.html#abfeca285d263affa1744f939bc7e46b0", null ],

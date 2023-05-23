@@ -12,7 +12,6 @@ var files_dup =
     [ "tcc.c", "d7/de5/tcc_8c.html", "d7/de5/tcc_8c" ],
     [ "tcc.h", "d3/d29/tcc_8h.html", "d3/d29/tcc_8h" ],
     [ "tccasm.c", "d4/d41/tccasm_8c.html", null ],
-    [ "tcccoff.c", "d0/dc0/tcccoff_8c.html", "d0/dc0/tcccoff_8c" ],
     [ "tccelf.c", "d6/da0/tccelf_8c.html", "d6/da0/tccelf_8c" ],
     [ "tccgen.c", "d7/dd0/tccgen_8c.html", "d7/dd0/tccgen_8c" ],
     [ "tccpp.c", "df/d5f/tccpp_8c.html", "df/d5f/tccpp_8c" ],
