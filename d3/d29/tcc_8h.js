@@ -30,9 +30,11 @@ var tcc_8h =
     [ "DEF_ASM", "d3/d29/tcc_8h.html#ab20bc377af7c92b314478d46e7f02ea2", null ],
     [ "DEF_ASMTEST", "d3/d29/tcc_8h.html#aeb67a2affff7bc59f436da3579264383", null ],
     [ "DEF_BWL", "d3/d29/tcc_8h.html#acae43d9640528b3f7612d5caeaa8d80c", null ],
+    [ "DEF_BWLX", "d3/d29/tcc_8h.html#a3dd9435c0748c8ba3b0aa219d4964453", null ],
     [ "DEF_FP", "d3/d29/tcc_8h.html#af868930268ccf9b0389e6ed1c47518f5", null ],
     [ "DEF_FP1", "d3/d29/tcc_8h.html#a349fd227d5bffb0f31a690dc73f6c83f", null ],
     [ "DEF_WL", "d3/d29/tcc_8h.html#a3f5c1679894c7b7453b040c4f8cf06a2", null ],
+    [ "DEF_WLX", "d3/d29/tcc_8h.html#a297d7927559d415c1442da5b12be4baa", null ],
     [ "FALSE", "d3/d29/tcc_8h.html#aa93f0eb578d23995850d61f7d61c55c1", null ],
     [ "false", "d3/d29/tcc_8h.html#a65e9886d74aaee76545e83dd09011727", null ],
     [ "FUNC_ALIGN", "d3/d29/tcc_8h.html#a8d28bd66f1c84a62249223002d5457b1", null ],
@@ -62,6 +64,7 @@ var tcc_8h =
     [ "MACRO_FUNC", "d3/d29/tcc_8h.html#abb9aa7318e0865a9c9c9b34797fa5851", null ],
     [ "MACRO_OBJ", "d3/d29/tcc_8h.html#af090727ea1dfa0efd662070d6944e538", null ],
     [ "MAX_ASM_OPERANDS", "d3/d29/tcc_8h.html#a21af45228724464829e3750de8eea70f", null ],
+    [ "NBWLX", "d3/d29/tcc_8h.html#a70ee5be1761f12267f67fac118c97899", null ],
     [ "O_BINARY", "d3/d29/tcc_8h.html#a36fa9b2e726512bc17a7a6d3e39002be", null ],
     [ "offsetof", "d3/d29/tcc_8h.html#a353187251a6359e206c4472fe66895ce", null ],
     [ "PACK_STACK_SIZE", "d3/d29/tcc_8h.html#a6f243b7c4c8deb0962b26457bdccdcf9", null ],
@@ -153,6 +156,7 @@ var tcc_8h =
     [ "VT_CONSTANT", "d3/d29/tcc_8h.html#aff379cb2fca278b3aa72e9031d42524f", null ],
     [ "VT_DOUBLE", "d3/d29/tcc_8h.html#a620cc3d8cd626184342d0409ff67ccb5", null ],
     [ "VT_ENUM", "d3/d29/tcc_8h.html#a222d40c71d3c4b1776d4c5343aa1f212", null ],
+    [ "VT_EXPORT", "d3/d29/tcc_8h.html#a02cd428fa324d800ca600b970037ddc8", null ],
     [ "VT_EXTERN", "d3/d29/tcc_8h.html#a06afb977b5d4aa64484f02800dc7c4cb", null ],
     [ "VT_FLOAT", "d3/d29/tcc_8h.html#a8ea40dbaf6ddc79132c4c71ebac5d977", null ],
     [ "VT_FUNC", "d3/d29/tcc_8h.html#aee9c7d2d04f13ab6982a48178e673411", null ],
@@ -226,7 +230,5 @@ var tcc_8h =
     [ "tcc_set_flag", "d3/d29/tcc_8h.html#a3f628dc7407eee1ca4c622de63a9d7a4", null ],
     [ "tcc_set_lib_path_w32", "d3/d29/tcc_8h.html#a63cab99a7bd65b360aa8a70b4d2954e6", null ],
     [ "tcc_strdup", "d3/d29/tcc_8h.html#a970cfc1370d1af0747f0575a8a05d542", null ],
-    [ "warning", "d3/d29/tcc_8h.html#a1a684a7bdfd73a0b441960754ba5f286", null ],
-    [ "num_callers", "d3/d29/tcc_8h.html#a1786ac5a16e17066a341fca030334c62", null ],
-    [ "rt_bound_error_msg", "d3/d29/tcc_8h.html#ab16798d926017807a8e612bed8b12316", null ]
+    [ "warning", "d3/d29/tcc_8h.html#a1a684a7bdfd73a0b441960754ba5f286", null ]
 ];
